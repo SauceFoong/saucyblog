@@ -46,7 +46,7 @@ export default function ResetPasswordPage() {
     e.preventDefault();
     
     if (!code) {
-      setErrorMessage("Invalid or missing reset code. Please request a new password reset.");
+      setErrorMessage("Invalid or missing reset code. Please request a new password to reset.");
       return;
     }
 
